@@ -581,7 +581,7 @@ public class SimulationPanel extends javax.swing.JPanel {
 
     private void threeXActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_threeXActionPerformed
         // TODO add your handling code here:
-        this.timer = 2;
+        this.timer = 100;
         this.threeX.setEnabled(false);
         this.oneX.setEnabled(true);
         this.twoX.setEnabled(true);
@@ -605,7 +605,7 @@ public class SimulationPanel extends javax.swing.JPanel {
 
     private void resetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetActionPerformed
         // TODO add your handling code here:
-        this.numberOfDays = 100;
+        this.numberOfDays = 0;
         this.body.removeAll();
         MainMenuPanel mmp = new MainMenuPanel(body);
         this.body.add("MainMenuJPanel", mmp);
