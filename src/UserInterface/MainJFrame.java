@@ -23,6 +23,7 @@ public class MainJFrame extends javax.swing.JFrame {
     public MainJFrame() {
         
 //        this.setUndecorated(true);
+        this.setTitle("  VIRAL EVOLUTION");
         initComponents();
         CenteredFrame(this);
         this.setSize(900, 650);
